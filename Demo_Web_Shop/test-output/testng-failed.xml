@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Electronics.TC_DWS_052_Test">
+      <class name="cart_module.TC_02_RemoveFromCart">
         <methods>
+          <include name="removeFromCart"/>
           <include name="login"/>
-          <include name="reportBackup"/>
-          <include name="reportCnfig"/>
-          <include name="clickOnGiftCards"/>
           <include name="logout"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Electronics.TC_DWS_052_Test -->
+      </class> <!-- cart_module.TC_02_RemoveFromCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
