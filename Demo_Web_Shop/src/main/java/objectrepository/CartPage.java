@@ -9,6 +9,8 @@ public class CartPage {
 
 	@FindBy(id = "checkout")
 	private WebElement checkoutBtn;
+
+	// Add the required locators to update the cart
 	
 	public CartPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
