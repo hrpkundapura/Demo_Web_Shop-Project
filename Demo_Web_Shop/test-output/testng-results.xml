@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-09T17:04:53 IST" name="Default suite" finished-at="2026-11-09T17:05:07 IST" duration-ms="14097">
+  <suite started-at="2026-11-10T13:45:11 IST" name="Default suite" finished-at="2026-11-10T13:45:30 IST" duration-ms="18423">
     <groups>
     </groups>
-    <test started-at="2026-11-09T17:04:53 IST" name="Default test" finished-at="2026-11-09T17:05:07 IST" duration-ms="14097">
-      <class name="cart_module.TC_02_RemoveFromCart">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:cart_module.TC_02_RemoveFromCart@7b98f307]" started-at="2026-11-09T17:04:53 IST" name="openBrowser" finished-at="2026-11-09T17:04:58 IST" duration-ms="4770" status="PASS">
+    <test started-at="2026-11-10T13:45:11 IST" name="Default test" finished-at="2026-11-10T13:45:30 IST" duration-ms="18423">
+      <class name="register_module.TC_04_InvalidRegister">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:register_module.TC_04_InvalidRegister@7c7b252e]" started-at="2026-11-10T13:45:11 IST" name="openBrowser" finished-at="2026-11-10T13:45:16 IST" duration-ms="4357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:cart_module.TC_02_RemoveFromCart@7b98f307]" started-at="2026-11-09T17:04:58 IST" name="login" finished-at="2026-11-09T17:05:00 IST" duration-ms="1621" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:register_module.TC_04_InvalidRegister@7c7b252e]" started-at="2026-11-10T13:45:16 IST" name="login" finished-at="2026-11-10T13:45:17 IST" duration-ms="1568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="removeFromCart()[pri:0, instance:cart_module.TC_02_RemoveFromCart@7b98f307]" started-at="2026-11-09T17:05:00 IST" name="removeFromCart" finished-at="2026-11-09T17:05:04 IST" duration-ms="4462" status="PASS">
+        <test-method signature="invalidRegisterTest()[pri:0, instance:register_module.TC_04_InvalidRegister@7c7b252e]" started-at="2026-11-10T13:45:17 IST" name="invalidRegisterTest" finished-at="2026-11-10T13:45:19 IST" duration-ms="2366" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeFromCart -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:cart_module.TC_02_RemoveFromCart@7b98f307]" started-at="2026-11-09T17:05:04 IST" name="logout" finished-at="2026-11-09T17:05:07 IST" duration-ms="3117" status="PASS">
+        </test-method> <!-- invalidRegisterTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:register_module.TC_04_InvalidRegister@7c7b252e]" started-at="2026-11-10T13:45:19 IST" name="logout" finished-at="2026-11-10T13:45:30 IST" duration-ms="10021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:cart_module.TC_02_RemoveFromCart@7b98f307]" started-at="2026-11-09T17:05:07 IST" name="closeBrowser" finished-at="2026-11-09T17:05:07 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:register_module.TC_04_InvalidRegister@7c7b252e]" started-at="2026-11-10T13:45:30 IST" name="closeBrowser" finished-at="2026-11-10T13:45:30 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- cart_module.TC_02_RemoveFromCart -->
+      </class> <!-- register_module.TC_04_InvalidRegister -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

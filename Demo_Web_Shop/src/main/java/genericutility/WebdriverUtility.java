@@ -1,13 +1,15 @@
 package genericutility;
 
+import java.time.Duration;
 import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebdriverUtility {
 
@@ -69,7 +71,6 @@ public class WebdriverUtility {
 		return driver.switchTo().alert();
 	}
 
-
 	public void switchToWindow(WebDriver driver, String actUrl) {
 		Set<String> allWindowsIds = driver.getWindowHandles();
 		for (String id : allWindowsIds) {
@@ -86,6 +87,18 @@ public class WebdriverUtility {
 			if (driver.getTitle().contains(expTitle))
 				break;
 		}
+	}
+
+	// --- EXPLICIT WAITS ---
+
+	public WebElement waitForVisibility(WebDriver driver, WebElement element, int seconds) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+		return wait.until(ExpectedConditions.visibilityOf(element));
+	}
+
+	public WebElement waitForElementToBeClickable(WebDriver driver, WebElement element, int seconds) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 }
